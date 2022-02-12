@@ -26,7 +26,7 @@ func main() {
 
 	fmt.Printf("My name is %s \nMy I'm %d \n", personName, personAge)
 
-	fmt.Scan(&personName, &personAge)
-
+	fmt.Scan(&personName, &personAge) // ввод из терминала
+	// fmt.Fscan(os.Stdin, &age)
 	fmt.Printf("My new name is %s \nMy I'm %d", personName, personAge)
 }
